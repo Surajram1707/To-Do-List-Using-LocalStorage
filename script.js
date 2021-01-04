@@ -47,12 +47,12 @@ const entryMaker = (text) => {
     }
     alert("Note Updated");
   }
-
+  td.appendChild(btn_del);
+  td.appendChild(btn_update);
   td.appendChild(document.createTextNode(text));
   tbl.appendChild(tr);
 
-  td.appendChild(btn_del);
-  td.appendChild(btn_update);
+  
 }
 
 itemsArray.forEach(item => {
